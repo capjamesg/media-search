@@ -30,7 +30,7 @@ export ROBOFLOW_API_KEY=""
 
 Then, copy all images you want to be able to search into the `covers` folder. Next, open the `app.py` file and modify the `metadata` dictionary to include relevant metadata. Here is an example:
 
-```json
+```python
 metadata = {
     "Reputation": {"youtube": "wIft-t-MQuE", "image": "Reputation.jpg"},
     "Lover": {"youtube": "p1cEvNn88jM", "image": "Lover.jpg"},
